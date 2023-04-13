@@ -1,32 +1,39 @@
-Assessment Details
-In this assignment you will explore a real dataset to practice the typical machine learning process. This assignment is designed to help you become more confident in applying machine learning approaches to solving tasks.
+# Dataset Description - Assignment 1
 
-Assignment 01 specifications is here Machine Learning COSC2753_2023A_Assignment 1.pdf Download Machine Learning COSC2753_2023A_Assignment 1.pdf 
-Data files:
-README.md Download README.md 
-Paitients_Files_Train.csv Download Paitients_Files_Train.csv 
-Paitients_Files_Test.csv Download Paitients_Files_Test.csv 
-S1234567 predictions.csv Download S1234567 predictions.csv(Your submission should be in this format, when the column Sepsis should include your predictions as Positive or Negative - DO NOT CHANGE THE FORMAT )
-Support Resources
-This assessment requires that you meet RMIT's expectations for academic integrity. More information and advice on how to avoid plagiarism are available in the Getting Started module.
+The provided data is a modified version of a publicly available data source, and is subject to copyright.
 
-Open the academic integrity page.
+### Donor of database: 
+                          The Johns Hopkins University
+                          Johns Hopkins Road
+                          Laurel, MD 20707
+                          (301) 953-6231
 
-Additional library and learning resources are available to help with the assessment in this course
+### Licence agreement: 
 
-Link to Assignment Support.
+The dataset can only be used for the purpose of this assignment. Sharing or distributing this data or using this data for any other commercial or non-commercial purposes is prohibited.
 
-Submission Instruction
-You will need to submit the following deliverables:
 
-The acceptable formats for the report are PDF, DOC, DOCX. Please name the report by following this convention: COSC2753_A1_YourStudentID
-Please submit ONLY your REPORT file to this page.
-Set of predictions from your ultimate judgment. Should be in CSV format. If your model predicts the patient will n o t develop Sepsis during their stay time at ICU, the associated “Sepsis” value in CSV should be Negative (Positive otherwise). Note that “S1234567_predictions.csv”: shows the expected format for your predictions on the unseen test data, please do NOT change format or order of this file.
-Name your prediction file as COSC2753_A1_Predictions_YourStudentID.csv
-Please submit your prediction to the separate Canvas page - submit your prediction CSV file.
-Your Python scripts or Jupyter notebooks used to perform your analysis.
-Zip your Jupyter notebook file before submitting it
-Name your zipfile as convention above.
-Please make sure that the notebook must be readily opened and executed on any standard machine/setting. The best practice is to include a README file to instruct the user on how to set up the environment to run your file (e.g., put data files in which folder, install which libraries/packages etc.).
-Please note that your code will be checked for plagiarism by our specialised software and both by Turnitin.
-Please submit your code (zip) file to the separate Canvas page - submit your code.
+### Data Fields
+
+| Column   Name                | Attribute/Target | Description                                                                                                                                                                                                  |
+|------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ID                           | N/A              | Unique number to represent patient ID                                                                                                                                                                        |
+| PRG           | Attribute1       |  Plasma glucose
+ |
+| PL               | Attribute 2     |   Blood Work Result-1 (mu U/ml)                                                                                                                                                |
+| PR              | Attribute 3      | Blood Pressure (mm Hg)    
+|
+| SK              | Attribute 4      | Blood Work Result-2 (mm) 
+|
+| TS             | Attribute 5      |     Blood Work Result-3 (mu U/ml)
+|                                                                                               
+| M11     | Attribute 6    |  Body mass index (weight in kg/(height in m)^2
+|
+| BD2             | Attribute 7     |   Blood Work Result-4 (mu U/ml)                                                                                                                                               |
+| Age              | Attribute 8      |    patients age  (years)                                                                                                                                             |
+| Insurance | N/A     | If a patient holds a valid insurance card
+|
+| Sepssis                 | Target           | Positive: if a patient in ICU will 
+develop a sepsis , and Negative: otherwise |
+
+### Missing Attribute Values: Yes

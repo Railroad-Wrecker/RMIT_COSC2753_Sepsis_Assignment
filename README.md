@@ -5,7 +5,7 @@ The provided data is a modified version of a publicly available data source, and
 ### Donor of database: 
                           The Johns Hopkins University
                           Johns Hopkins Road
-                          Laurel, MD 20707
+                          Laurel, MD 20707 
                           (301) 953-6231
  
 ### Licence agreement: 
